@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;  
+}
+body,ul,li,div,a{
+    margin: 0px;
+    padding: 0px; 
+}
+
+
+/*---------header section---------*/
+.fullpage{
+    width: 100%;
+}
+
+.header{
+    width: 80%;
+    margin: auto;
+    border: 1px solid white;
+}
+
+.logo{
+    font-size: 20px;
+    float: left;
+    font-family: 'Playfair Display', serif;
+    
+}
+.nav{
+    
+    
+}
+.nav ul{
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    
+}
+.nav ul li{
+    display: inline;
+    font-size: 22px;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.nav a{
+    color: gray;
+}
+
+.button{
+    margin-top: 20px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.button button{
+    font-size: 20px;
+    clear: both;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-color: #03a87c;
+    color: #fff;
+    background-color: #03a87c;
+    border-radius: 10px;
+}
+
+/*----------main section-----------*/
+.main{
+    width: 80%;
+    margin: auto;
+}
+
+.main1{
+    width: 50%;
+    font-size: large;
+    margin-left: -133px;
+    float: left;
+    background-color: #e8f3ec;
+    padding: 57px;
+    display: inline;
+    margin-bottom: 40px;
+
+}
+.main1 h1{
+    font-family: 'Playfair Display', serif;
+}
+.main1 p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main1 button{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-color: #03a87c;
+    color: #fff;
+    background-color: #03a87c;
+    border-radius: 10px;
+}
+
+.main2{
+    width: 50%;
+    margin-bottom: 40px;
+    float: left;
+    display: inline;
+}
+.main2 img{
+    width: 100%;
+    height: 466px;
+}
+
+/*----------more section-----------*/
+.more{
+    overflow: auto;
+    clear: both;
+    width: 80%;
+    margin: auto;
+}
+
+.photo{
+    width: 50%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+.photo img{
+    width: 100%;
+    height: 130px;
+}
+.photo h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 27px;
+}
+.photo p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+}
+.photo small{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+
+.horizontal{
+    width: 50%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+.horizontal1{
+    width: 100%;
+}
+.image img{
+    width: 25%;
+    float: left;
+    padding-bottom: 30px;
+}
+.article1{
+    float: left;
+    padding-left: 15px;
+    
+}
+.article1 h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    margin-top: -3px ;   
+}
+.article1 p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;      
+}
+.article1 small{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;     
+}
+.horizontal2{
+    width: 100%;
+    overflow: auto;
+    clear: both;  
+}
+.horizontal3{
+    width: 100%;
+    overflow: auto;
+    clear: both;  
+}
+
+/*------last section------------*/
+.last{
+    width: 80%;
+    margin: auto;
+}
+.allstories{
+    width: 70%;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.para1{
+    width: 70%;
+    float: left;
+}
+.pic{
+    width: 30%;
+    float: left;
+}
+.pic img{
+    width: 95%;
+    margin-top: 25px;
+    height: 130px;
+}
+
+.para2{
+    overflow: auto;
+    clear: both;
+    width: 70%;
+    float: left;
+}
+
+.para3{
+    overflow: auto;
+    clear: both;
+    width: 70%;
+    float: left;
+}
+
+
+
+.popular{
+    width: 30%;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 10px;
+}
+
+.h1{
+    float: left;
+    display: inline;
+    margin-top: -15px;
+}
+h1{
+    font-size: 40px;
+}
+
+.letter{
+    float: left;
+    padding-left: 5px;
+}
+.letter h4{
+    font-size: 14px;
+}
+
+.h2{
+    float: left;
+    display: inline;
+    overflow: auto;
+    clear: both;
+    margin-top: -15px;
+}
+
+.h3{
+    float: left;
+    display: inline;
+    overflow: auto;
+    clear: both;
+    margin-top: -15px;
+}
+
+.h4{
+    float: left;
+    display: inline;
+    overflow: auto;
+    clear: both;
+    margin-top: -15px;
+}
+
+.down a{
+    font-size: 11px;
+}
+
+/*----------Footer Sector---*/
+
+.footer{
+    width: 80%;
+    clear: both;
+    overflow: auto;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom:40px ;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.mundana{
+    float: left;
+}
+.copyright{
+    float: left;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+.madeby{
+    float: left;
+    margin-left: 650px;
+    margin-top: 12px;
+}
+.madeby a{
+    clear: both;
+    overflow: auto;
+    font-weight: bold;
+}
+
+/*-----Extra Style------*/
+a{
+    text-decoration: none;
+    color: black;
+}
+small{
+    color: #6c757d;
+}
