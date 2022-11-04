@@ -58,9 +58,12 @@ body,ul,li,div,a{
     clear: both;
     font-family: 'Source Sans Pro', sans-serif;
     border-color: #03a87c;
-    color: #fff;
+    
     background-color: #03a87c;
     border-radius: 10px;
+}
+.button a{
+    color: #fff;
 }
 
 /*----------main section-----------*/
@@ -93,6 +96,9 @@ body,ul,li,div,a{
     color: #fff;
     background-color: #03a87c;
     border-radius: 10px;
+}
+.main1 button a{
+    color: #fff;
 }
 
 .main2{
